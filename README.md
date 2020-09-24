@@ -31,7 +31,7 @@ Die Seite wird gleich umgebaut, als ein Projekt mit Vue CLI. <br>under constucti
 
 ## Features
 
-In "repository" werden nicht ganze Projekt-Files der Webseite gelegt, sondern einige .vue und .js Dataien. <br><br>
+In "repository" werden nicht ganze Projekt-Files der Webseite gelegt. <br><br>
 Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit Vue Router wird als Single-Page-Application inplementiert.
 
 
@@ -39,7 +39,7 @@ Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit V
 
 ![page](./images/page.jpg)
 
-
+<br>
 #### Data / Components Structure
 
 ![structure](./images/structure.jpg)
