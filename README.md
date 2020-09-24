@@ -39,7 +39,7 @@ Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit V
 
 ![page](./images/page.jpg)
 
-<br>
+
 #### Data / Components Structure
 
 ![structure](./images/structure.jpg)
