@@ -28,7 +28,6 @@ export default {
     methods: {
         makeHomeImgUrl(pic){
             const mainImg = require(`../assets/mainImg/${pic}.jpg`);
-            console.log(mainImg);
             return mainImg;
         }
     }

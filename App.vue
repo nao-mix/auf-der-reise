@@ -1,8 +1,8 @@
 <template>
 <div id="app">
-    <Menu @menuClick="onMenuClick" @homeClick="onHomeClick"></Menu>
+    <Menu @menuClick="onMenuClick"></Menu>
     <router-view></router-view>
-    <Footer @homeLinkClick="onHomeClick"></Footer>
+    <Footer @homeLinkClick="onMenuClick"></Footer>
 </div>
 </template>
 
@@ -16,19 +16,13 @@ export default {
         Menu,
         Footer
   },
-  data(){
+  data() {
       return{
       }
   },
   methods: {
-      // click "Home"
-      onHomeClick(){
-          window.scrollTo(0,0);
-      },
-      // click other menu
+      // click Menu item
       onMenuClick(){
-          //let myLink = e.target.pathname.replace(/\//g, '');
-          //console.log(e);
           window.scrollTo(0,0);
     }
   }

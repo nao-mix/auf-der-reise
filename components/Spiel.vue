@@ -33,7 +33,7 @@ export default {
         },
         //click the game
         openGame(selectedGame){
-            if(selectedGame.id != 100){
+            if(selectedGame.id){
                 const gameUrl = `http://aufderreise.com/${selectedGame.url}/`
                 window.open(gameUrl,'subwin','width=750,height=800');
                 return false;
@@ -45,21 +45,20 @@ export default {
             const games = [
                 {
                     name: 'TETRIS',
-                    desc: 'Very popular russian puzzlegame! (Only for PC)<br>&larr; Move Left<br>&rarr; Move Right<br>&darr; Move Down<br>&uarr; Rotate',
+                    desc: 'Very popular russian puzzlegame! (Only for desktop)<br>&larr; Move Left<br>&rarr; Move Right<br>&darr; Move Down<br>&uarr; Rotate',
                     url: 'tetris',
-                    id: 0
+                    id: 1
                 },
                 {
                     name: 'COLOR TIC-TAC-TOE',
                     desc: 'Classic game for 2 players ! <br>Just click!!',
                     url: 'tictactoe',
-                    id: 1
+                    id: 2
                 },
                 {
                     name: '? ? ?',
                     desc: 'coming soon...',
-                    url: 'comingSoon',
-                    id: 100
+                    url: 'comingSoon'
                 }
             ];
             return games;

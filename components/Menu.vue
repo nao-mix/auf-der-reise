@@ -6,16 +6,16 @@
         <b-collapse id="nav-collapse" is-nav>
 
         <b-navbar-nav>
-            <b-link to="/" router-tag="b-nav-item" @click="clickedHome" active>HOME</b-link>
+            <b-link to="/" router-tag="b-nav-item" @click="clickedMenu" active>HOME</b-link>
             <b-nav-item-dropdown text="REISEN">
-                <b-link to="/cafe" router-tag="b-dropdown-item" @click="clickedmenu">WIENER CAFÉ</b-link>
-                <b-dropdown-item href="#" @click="clickedmenu" disabled>EX-JUGOSLAWIEN</b-dropdown-item>
-                <b-dropdown-item href="#" @click="clickedmenu" disabled>FLUGHAFEN</b-dropdown-item>
+                <b-link to="/cafe" router-tag="b-dropdown-item" @click="clickedMenu">WIENER CAFÉ</b-link>
+                <b-dropdown-item href="#" @click="clickedMenu" disabled>EX-JUGOSLAWIEN</b-dropdown-item>
+                <b-dropdown-item href="#" @click="clickedMenu" disabled>FLUGHAFEN</b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-link to="/spiel" router-tag="b-nav-item" @click="clickedmenu">SPIEL</b-link>
-            <b-link to="/myApps" router-tag="b-nav-item" @click="clickedmenu">APP</b-link>
-            <b-link to="/ueber" router-tag="b-nav-item" @click="clickedmenu">ÜBER DIESE SEITE</b-link>
-            <b-nav-item @click="clickedmenu" disabled>KONTAKT</b-nav-item>
+            <b-link to="/spiel" router-tag="b-nav-item" @click="clickedMenu">SPIEL</b-link>
+            <b-link to="/myApps" router-tag="b-nav-item" @click="clickedMenu">APP</b-link>
+            <b-link to="/ueber" router-tag="b-nav-item" @click="clickedMenu">ÜBER DIESE SEITE</b-link>
+            <b-nav-item @click="clickedMenu" disabled>KONTAKT</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -34,12 +34,8 @@
 export default {
     name: 'Menu',
     methods: {
-        clickedHome(){
-            this.$emit('homeClick');
-        },
-        clickedmenu(event){
-            //console.log(event);
-            this.$emit('menuClick', event);
+        clickedMenu(){
+            this.$emit('menuClick');
         }
     }
 }
