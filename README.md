@@ -26,7 +26,7 @@ Die Seite wird gleich umgebaut, als ein Projekt mit Vue CLI. <br>under constucti
 * Visual Studio Code
 * Adobe Photoshop
 * FileZilla
-* [Xserver](https://www.xserver.ne.jp/) 
+* [Xserver (Webhosting) ](https://www.xserver.ne.jp/) 
 
 
 ## Features
@@ -37,6 +37,7 @@ Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit V
 
 #### Overview
 
+##### aufderreise.com/spiel
 ![page](./images/page.jpg)
 
 
@@ -48,11 +49,6 @@ Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit V
 ## Roadmap
 
 See the [issues](https://github.com/nao-mix/auf-der-reise/issues) for a list of proposed features.
-
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 ## Contact
