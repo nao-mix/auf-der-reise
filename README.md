@@ -15,9 +15,12 @@ Die Seite wird gleich umgebaut, als ein Projekt mit Vue CLI. <br>under constucti
 * HTML5
 * CSS3
 * JavaScript
+* PHP
 * Vue.js / Vue CLI / Vue Router
 * Node.js / npm
-* BootstrapVue
+* Axios
+* Bootstrap
+* Google reCAPTCHA v3
 * [Google Fonts (Josefin Sans)](https://fonts.google.com/specimen/Josefin+Sans)
 
 
