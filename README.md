@@ -20,7 +20,7 @@ Die Seite wird gleich umgebaut, als ein Projekt mit Vue CLI. <br>under constucti
 * Node.js / npm
 * Axios
 * Bootstrap
-* Google reCAPTCHA v3
+* [Google reCAPTCHA v3](https://developers.google.com/recaptcha)
 * [Google Fonts (Josefin Sans)](https://fonts.google.com/specimen/Josefin+Sans)
 
 
@@ -46,6 +46,13 @@ Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit V
 #### Data / Components Structure
 
 ![structure](./images/structure.jpg)
+
+#### Contact Form / vs. Bots
+
+In der Subpage "Kontakt" habe ich ein Kontaktformular gestellt. Wenn ein Besucher das Formular ausfüllt und eine Nachricht absendet, bekommt der Besucher eine Bestätigungsemail per PHP. 
+Für den Spamschutz beim Kontaktformular habe ich Google reCAPTCHA v3 benutzt.
+
+<img src="images/contact.jpg" alt="contact" width="800"><br>
 
 
 ## Roadmap
