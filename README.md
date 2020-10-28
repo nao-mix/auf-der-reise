@@ -46,7 +46,7 @@ Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit V
 #### Contact Form / vs. Bots
 
 In der Subpage "Kontakt" habe ich ein Kontaktformular gestellt. Wenn ein Besucher das Formular ausfüllt und eine Nachricht absendet, bekommt der Besucher eine Bestätigungsemail per PHP. 
-Für den Spamschutz beim Kontaktformular habe ich Google reCAPTCHA v3 benutzt.
+Für den Spamschutz beim Kontaktformular habe ich Google reCAPTCHA v3 benutzt (reCAPTCHA Badge: invisible). 
 
 <img src="images/contact.jpg" alt="contact" width="800"><br>
 
