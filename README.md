@@ -43,10 +43,6 @@ Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit V
 ![page](./images/page.jpg)
 
 
-#### Data / Components Structure
-
-![structure](./images/structure.jpg)
-
 #### Contact Form / vs. Bots
 
 In der Subpage "Kontakt" habe ich ein Kontaktformular gestellt. Wenn ein Besucher das Formular ausfüllt und eine Nachricht absendet, bekommt der Besucher eine Bestätigungsemail per PHP. 
