@@ -17,6 +17,7 @@ Die Seite wird gleich umgebaut, als ein Projekt mit Vue CLI. <br>under constucti
 * JavaScript
 * PHP
 * Vue.js / Vue CLI / Vue Router
+* [vue-loading-template](https://www.npmjs.com/package/vue-loading-template)
 * Node.js / npm
 * Axios
 * Bootstrap
@@ -35,6 +36,9 @@ Die Seite wird gleich umgebaut, als ein Projekt mit Vue CLI. <br>under constucti
 ## Features
 
 Bei diesem Projekt wird das JavaScript Framework Vue.js / Vue CLI benutzt. Mit Vue Router wird als Single-Page-Application inplementiert.
+
+When man die Toppage öffnet, wird zuerst eine Loading-Animation (spinner) gezeigt.
+Dafür wird "vue-loading-template"-Module verwendet.
 
 
 #### Overview
