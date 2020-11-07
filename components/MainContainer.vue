@@ -26,22 +26,34 @@ export default {
     background-repeat: no-repeat;
     background-position: top;
     text-align: center;  
-    font-size: 80px;
+    font-size: 4rem;
     padding-top: 200px;
     padding-bottom: 100px;
     margin: 0px;
     color: white;
-    height: 600px;
+    height: 500px;
 }
 
-.fade-enter-active {
-    transition: opacity 4s;
-}
 .fade-enter {
-    opacity: 0;
+  transform: translate(0, -100px);
+  opacity: 0;
 }
 .fade-enter-to {
-    opacity: 1;
+  opacity: 1;
+}
+.fade-enter-active {
+  transition: all 2s 0s ease;
+}
+.fade-leave {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.fade-leave-to {
+  transform: translate(0, 100px);
+  opacity: 0;
+}
+.v-leave-active {
+  transition: all 1s 0s ease;
 }
 
 </style>
