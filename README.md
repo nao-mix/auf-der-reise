@@ -7,7 +7,7 @@
 
 Seit langem habe ich so geplant, meine eigene Webseite zu erstellen und darin meine Reisen vorzustellen.<br>
 Als der zweite Zweck zur Webseite benutze ich sie als Portfolio, meine Programmierung-Werke vorzustellen.<br>
-Die Seite wird gleich umgebaut, als ein Projekt mit Vue CLI. <br>under constuction...
+Die Seite wird gleich umgebaut, als ein Projekt mit Vue CLI. 
 
 
 ## Technologies Used 
@@ -53,6 +53,22 @@ In der Subpage "Kontakt" habe ich ein Kontaktformular gestellt. Wenn ein Besuche
 Für den Spamschutz beim Kontaktformular habe ich Google reCAPTCHA v3 benutzt (reCAPTCHA Badge: invisible). 
 
 <img src="images/contact.jpg" alt="contact" width="800"><br>
+
+
+
+## Appendix: Work Reference in Japan
+
+##### Mein erstes Frontend-Werk 2006 (mit PHP)
+Interne Webseite für ein Gamedevelopment-Projekt.
+<img src="images/php2006.jpg" alt="php2006" width="800"><br>
+
+
+##### 3D CG: Particle-Simulation (ein Schwarm Fisch) und 3D-Modellierung (Fisch)
+<img src="images/fish.jpg" alt="fish" width="800"><br>
+
+
+##### 3D CG: 3D-Modellierung (LKW)
+<img src="images/comboy.jpg" alt="comboy" width="800"><br>
 
 
 ## Roadmap
