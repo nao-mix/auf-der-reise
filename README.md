@@ -1,6 +1,6 @@
 # auf-der-reise
 
-### Link to the Website: [https://aufderreise.com/](https://aufderreise.com/)
+~~### Link to the Website:~~ Diese Webseite ist zurzeit geschlossen!
 
 
 ## About The Project
